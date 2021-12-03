@@ -1,0 +1,51 @@
+html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section{
+    max-width: 400px;
+    min-width: 110px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#textInput{
+    width: 100%;
+    padding: 5px;
+
+}
+.div-text{
+    width: 100%;
+}
+.div-result{
+    /* border: solid rgb(223, 8, 8) 1px; */
+    width: 100%;
+}
+.div-result-parent{
+    padding: 5px;
+}
+
+
+@media (max-width: 330px){
+    button{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 190px){
+    button{
+        font-size: 8px;
+    }
+}
